@@ -1,0 +1,21 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size:40px;
+}
+.color_highlight{
+    color:lightcoral;
+}
+h3{
+    font-weight: 700;
+}
+p{
+    color:#AaA;
+}
+.half-width{
+    width:40%;
+    float: left;
+    margin-left:5%;
+
+}
