@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0px;
 }
 h1{
     font-size:40px;
@@ -8,14 +9,63 @@ h1{
     color:lightcoral;
 }
 h3{
-    font-weight: 700;
+    font-weight: 1200;
+}
+h2{
+    font-size:30px;
 }
 p{
-    color:#AaA;
+    color:rgb(170, 170, 170);
 }
 .half-width{
     width:40%;
     float: left;
     margin-left:5%;
+    padding-left: 1%;
+    background-color: rgb(255, 255, 255);
 
 }
+a{
+    text-decoration: none;
+    background-image:linear-gradient(45deg,lightsalmon,tomato);
+    color: white;
+    padding:10px 20px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.top{
+    background-image:url("image/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height:500px;}
+.dream-area{
+    background-image:url("image/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position:right;
+}
+#box1{
+    box-shadow: 10px 10px 40px gray;
+    height: 300px;
+    border-left:7px solid;
+    border-image:linear-gradient(180deg,rgb(175, 178, 221),rgb(75, 10, 228));
+    border-image-slice: 1;
+}
+#box2{
+    box-shadow: 10px 10px 40px gray;
+    height: 300px;
+    border-left:7px solid;
+    border-image:linear-gradient(180deg,rgb(224, 144, 148),rgba(221, 41, 50, 0.644));
+    border-image-slice: 1;
+}
+.experiance{
+    background-image: url("image/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+footer{
+    text-align: center;
+    font-size: 14px;
+}
+
+
